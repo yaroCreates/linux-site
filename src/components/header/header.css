@@ -1,0 +1,25 @@
+.header {
+    background-color:  #333333;
+    height: 75px;
+    padding: 0 241px 0 241px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right p {
+    font-size: 14px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.header-middle {
+    font-size: 25px;
+    font-weight: 400;
+}
