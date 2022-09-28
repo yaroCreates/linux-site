@@ -33,7 +33,7 @@ function Page2() {
             </div>
         </div>
         <div className="form-area">
-            <span className="top-icon"><i style="margin-top: 0.3rem;" className="fa fa-check"></i></span>
+            <span className="top-icon"><i style={{marginTop: "0.3rem"}} className="fa fa-check"></i></span>
             <div className="field">
                 <div className="field-items">
                     <p className="serial-no">1.</p>
@@ -55,7 +55,7 @@ function Page2() {
                         <div className="input-fields">
                             <input type="text" placeholder="Course of study"/>
                             <input type="text" placeholder="Expected graduation date"/>
-                            <span><i className="fa fa-reply" style="color: #C5CCEC;"></i></span>
+                            <span><i className="fa fa-reply" style={{color: "#C5CCEC"}}></i></span>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function Page2() {
                         </div>
                         <div className="input-fields">
                             <input className="input-width" type="text" placeholder="Current occupation"/>
-                            <span><i className="fa fa-reply" style="color: #C5CCEC;"></i></span>
+                            <span><i className="fa fa-reply" style={{color: '#C5CCEC'}}></i></span>
                         </div>
                         {/* <button>Yes</button>
                         <button>No</button> */}
@@ -83,7 +83,7 @@ function Page2() {
                             <span><i className=" yes fa fa-check"></i></span>
                             <p className="yes">Yes</p>
                         </div>
-                        <div style="padding: 1.5rem;">
+                        <div style={{padding: "1.5rem"}}>
                             <p className="field-question">Have you completed?</p>
                             <button>Yes</button>
                             <button>No</button>

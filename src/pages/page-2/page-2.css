@@ -1,22 +1,5 @@
-html,
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Helvetica";
-}
-
 body {
     min-height: 110vh;
-}
-
-header {
-    background-color: #333333;
-    height: 75px;
-    padding: 0 241px 0 241px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #FFF;
 }
 
 span i {
@@ -107,7 +90,7 @@ span i {
     height: 15.5rem;
     background-color: beige;
     border-radius: 35px;
-    background: url('/assets/Profile.jpg');
+    background: url('/public/assets/Profile.jpg');
     background-size: cover;
 }
 

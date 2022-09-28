@@ -34,7 +34,7 @@ function Page3() {
             </div>
         </div>
         <div class="form-area">
-            <span class="top-icon"><i style="margin-top: 0.3rem;" class="fa fa-check"></i></span>
+            <span class="top-icon"><i style={{marginTop: "0.3rem"}} class="fa fa-check"></i></span>
             <div class="field">
                 <div class="field-items">
                     <p class="serial-no">1.</p>
@@ -56,7 +56,7 @@ function Page3() {
                         <div class="input-fields">
                             <input type="text" placeholder="Course of study"/>
                             <input type="text" placeholder="Expected graduation date"/>
-                            <span><i class="fa fa-reply" style="color: #C5CCEC;"></i></span>
+                            <span><i class="fa fa-reply" style={{color: "#C5CCEC"}}></i></span>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ function Page3() {
                         </div>
                         <div class="input-fields">
                             <input class="input-width" type="text" placeholder="Current occupation"/>
-                            <span><i class="fa fa-reply" style="color: #C5CCEC;"></i></span>
+                            <span><i class="fa fa-reply" style={{color: "#C5CCEC"}}></i></span>
                         </div>
                         {/* <button>Yes</button>
                         <button>No</button> */}
@@ -84,7 +84,7 @@ function Page3() {
                             <span><i class=" yes fa fa-check"></i></span>
                             <p class="yes">Yes</p>
                         </div>
-                        <div style="padding: 1.5rem;">
+                        <div style={{padding: "1.5rem"}}>
                             <div class="field-question-header">
                                 <p class="field-question">Have you completed?</p>
                                 <span><i class=" yes fa fa-check"></i></span>
@@ -94,7 +94,7 @@ function Page3() {
                             <button>No</button> */}
                             <div class="next-step">
                                 <p>Next Step</p>
-                                <span><i class="fa fa-angle-right" style="color: white;"></i></span>
+                                <span><i class="fa fa-angle-right" style={{color: "white"}}></i></span>
                             </div>
                         </div>
                     </div>

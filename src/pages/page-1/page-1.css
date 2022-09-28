@@ -107,7 +107,7 @@ span i {
     height: 15.5rem;
     background-color: beige;
     border-radius: 35px;
-    background: url('/assets/Profile.jpg');
+    background: url('/public/assets/Profile.jpg');
     background-size: cover;
 }
 
