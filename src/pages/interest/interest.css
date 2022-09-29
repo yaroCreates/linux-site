@@ -313,8 +313,9 @@ span i {
     border-radius: 6px;
     color: #FFF;
     position: absolute;
-    top: 12rem;
+    bottom: -2rem;
     left: 20rem;
+    cursor: pointer;
 }
 
 .done p {
@@ -322,6 +323,12 @@ span i {
     margin-right: 1rem;
 }
 
+.alert {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #ACB7EB;
+}
 button {
     width: 5.5rem;
     height: 3.31rem;
