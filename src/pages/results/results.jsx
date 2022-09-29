@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './results.css'
 
-function Results() {
+export class results extends Component {
+  render() {
     return (
         <div className="container">
             <div className="profile-area">
@@ -84,6 +85,7 @@ function Results() {
             </div>
         </div>
     )
+  }
 }
 
-export default Results
+export default results
