@@ -80,6 +80,12 @@ span i {
     color: #30302E;
 }
 
+.list-content:first-child {
+    background-color: #F1F3FD;
+    border-radius: 17px;
+    padding-right: .5rem;
+}
+
 .list-content:nth-child(4) {
     justify-content: flex-start;
     margin-left: 3rem;
@@ -218,6 +224,7 @@ span i {
     display: flex;
     margin-top: 2.69rem;
     justify-content: space-between;
+    padding: 3rem;
 
 }
 
@@ -244,7 +251,7 @@ span i {
 
 .interest input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
-    opacity: 1;
+    opacity: 0;
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -265,6 +272,7 @@ span i {
     left: 0%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    opacity: 0;
 }
 
 .range-slider .slider-thumb::before {
