@@ -1,0 +1,366 @@
+html,
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+body {
+    min-height: 110vh;
+}
+
+header {
+    background-color: #333333;
+    height: 75px;
+    padding: 0 241px 0 241px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+span i {
+    color: #30302E;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header-right p {
+    font-size: 14px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.header-middle {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.container {
+    padding: 0 241px 0 241px;
+    margin-top: 9.06rem;
+    display: flex;
+
+}
+
+.material-symbols-outlined {
+    background-color: #F1F3FD;
+    padding: 5px;
+    border-radius: 1.06rem;
+    color: #002851;
+    width: 3.31rem;
+    height: 3.31rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+.results-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.results-header p {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #30302E;
+}
+
+.list-content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #30302E;
+}
+
+.list-content:nth-child(4) {
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
+
+.list-content:nth-child(4) p {
+    font-size: 1.06rem;
+    color: #ACB7EB;
+}
+
+.list-content:nth-child(4) span {
+    color: #ACB7EB;
+    background-color: transparent;
+}
+
+.profile-area {
+    width: 14.38rem;
+    margin-right: 11.36rem;
+}
+
+.profile-area h4 {
+    font-size: 1.86rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3.44rem;
+    color: #30302E;
+}
+
+.photo {
+    width: 14.19rem;
+    height: 15.5rem;
+    background-color: beige;
+    border-radius: 35px;
+    background: url('/public/assets/Profile.jpg');
+    background-size: cover;
+}
+
+.picicon {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.photo-icon {
+    position: absolute;
+    background: linear-gradient(180deg, #800165 0%, #D3014E 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+    color: #FFF;
+    bottom: -0.8rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    left: 5.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.result-area {
+    position: relative;
+    width: 61.25rem;
+    height: 36.4rem;
+    background: #FFFFFF;
+    border-radius: 35px;
+    padding-left: 4.94rem;
+    padding-right: 4.94rem;
+}
+
+.results {
+    width: 115%;
+    height: 12.44rem;
+    box-shadow: 0px 4px 29px #F0F3FF;
+    border-radius: 2.19rem;
+    margin-bottom: 2.69rem;
+}
+
+.results-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.result-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.field-name {
+    margin-bottom: 1rem;
+    font-size: 1.06rem;
+    color: #30302E;
+    font-weight: 400;
+}
+
+.field-input {
+    width: 14rem;
+    height: 3.3rem;
+    background: #F1F3FD;
+    border-radius: 17px;
+    outline: none;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1.06rem;
+}
+
+.field-input::placeholder {
+    color: #C5CCEC;
+}
+
+.top-icon {
+    position: relative;
+    background: linear-gradient(180deg,
+            #800165 0%, #D3014E 100%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-icon i {
+    color: #FFF;
+
+}
+
+.field {
+    margin-top: 4.44rem;
+}
+
+.field-heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #30302E;
+}
+
+.interest-field {
+    width: 100%;
+    display: flex;
+    margin-top: 2.69rem;
+    justify-content: space-between;
+
+}
+
+.interest {
+    margin-bottom: 2rem;
+}
+
+
+.range-slider {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.interest input {
+    width: 100%;
+    cursor: pointer;
+    background: #F1F3FD;
+    border-radius: 17px;
+    -webkit-appearance: none;
+
+
+}
+
+.interest input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 1;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 5;
+    cursor: pointer;
+    box-shadow: #d46a6a50 0px 0px 0px 6px;
+    position: relative;
+}
+
+.range-slider .slider-thumb {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.range-slider .slider-thumb::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.8em;
+    height: 0.8em;
+    background: #fff;
+    border-radius: inherit;
+    transition: 0.3s;
+}
+
+.range-slider:hover .slider-thumb:before {
+    background: #800165;
+    box-shadow: #d46a6a50 0px 0px 0px 6px;
+}
+
+
+.range-slider .progress {
+    width: 0%;
+    height: 0.9em;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #800165 0%, #D3014E 100%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    pointer-events: none;
+}
+
+.interest-left {
+    width: 45%;
+}
+
+.interest-right {
+    width: 45%;
+}
+
+.nameandvalue {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 1.125rem;
+    color: #ACB7EB;
+    font-weight: 400;
+}
+
+
+.value {
+    font-size: 1rem;
+    color: #002851;
+    font-weight: 400;
+}
+
+.done {
+    width: 12.5rem;
+    height: 4.06rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #066AEF;
+    box-shadow: 0px 4px 14px rgba(51, 157, 255, 0.22);
+    border-radius: 6px;
+    color: #FFF;
+    position: absolute;
+    bottom: -2rem;
+    left: 20rem;
+    cursor: pointer;
+}
+
+.done p {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+.alert {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #ACB7EB;
+}
+
+button {
+    width: 5.5rem;
+    height: 3.31rem;
+    outline: none;
+    border: none;
+    color: #002851;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 1.06rem;
+    margin-right: 1.44rem;
+}
