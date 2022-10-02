@@ -114,8 +114,8 @@ span i {
 
 .form-area {
     position: relative;
-    width: 47.5rem;
-    height: 46.86rem;
+    width: 47.5rem !important;
+    height: 46.86rem !important;
     background: #FFFFFF;
     box-shadow: 0px 4px 29px #F0F3FF;
     border-radius: 35px;
