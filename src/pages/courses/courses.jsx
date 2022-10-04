@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './courses.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import Video from '../../components/video/video'
+import Notes from '../../components/notes/notes'
 
 function Courses() {
 
@@ -92,7 +93,8 @@ function Courses() {
                     </div>
                     <div className="courses-right-content">
                         <Routes>
-                            <Route exact path='' element={<Video/>}/>
+                            <Route exact path='/' element={<Video/>}/>
+                            <Route exact path='notes' element={<Notes/>}/>
                         </Routes>
                     </div>
                 </div>
