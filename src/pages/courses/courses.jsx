@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './courses.css'
 import { Link } from 'react-router-dom'
+import Video from '../../components/video/video'
 
 function Courses() {
 
@@ -84,13 +85,13 @@ function Courses() {
                 </div>
                 <div className="courses-right">
                     <div className="courses-right-buttons">
-                        <button className="courses-right-button">Video</button>
-                        <button className="courses-right-button">Lab</button>
-                        <button className="courses-right-button">Note</button>
-                        <button className="courses-right-button">Chat</button>
+                        <Link><button className="courses-right-button">Video</button></Link>
+                        <Link><button className="courses-right-button">Lab</button></Link>
+                        <Link><button className="courses-right-button">Note</button></Link>
+                        <Link><button className="courses-right-button">Chat</button></Link>
                     </div>
                     <div className="courses-right-content">
-                        
+                        <Video/>
                     </div>
                 </div>
             </div>
