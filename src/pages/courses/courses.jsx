@@ -90,10 +90,7 @@ function Courses() {
                         <button className="courses-right-button">Chat</button>
                     </div>
                     <div className="courses-right-content">
-                        <div className='vid-box'>
-                            <img src='/assets/image2.png' alt="Video playing..." className="vid" />
-                        </div>
-                        <p className='vid-title'>Python as a Computer Programming Language</p>
+                        
                     </div>
                 </div>
             </div>
