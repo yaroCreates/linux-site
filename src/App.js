@@ -19,7 +19,7 @@ function App() {
           <Route path='/page2' element={<Page2 />} />
           <Route path='/page3' element={<Page3 />} />
           <Route path='/interest' element={<Interest />} />
-          <Route path='/courses' element={<Courses />} />
+          <Route path='/courses/*' element={<Courses />} />
           {/* <Route path='/results' element={<Results />} /> */}
         </Routes>
       </div>
