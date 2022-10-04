@@ -86,9 +86,9 @@ function Courses() {
                 </div>
                 <div className="courses-right">
                     <div className="courses-right-buttons">
-                        <Link><button className="courses-right-button">Video</button></Link>
+                        <Link to='/courses'><button className="courses-right-button">Video</button></Link>
                         <Link><button className="courses-right-button">Lab</button></Link>
-                        <Link><button className="courses-right-button">Note</button></Link>
+                        <Link to='/courses/notes'><button className="courses-right-button">Note</button></Link>
                         <Link><button className="courses-right-button">Chat</button></Link>
                     </div>
                     <div className="courses-right-content">
