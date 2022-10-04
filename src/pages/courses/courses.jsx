@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './courses.css'
-import { Link } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 import Video from '../../components/video/video'
 
 function Courses() {
@@ -91,7 +91,9 @@ function Courses() {
                         <Link><button className="courses-right-button">Chat</button></Link>
                     </div>
                     <div className="courses-right-content">
-                        <Video/>
+                        <Routes>
+                            <Route exact path='' element={<Video/>}/>
+                        </Routes>
                     </div>
                 </div>
             </div>
