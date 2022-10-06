@@ -80,6 +80,7 @@
     font-size: 0.86rem;
     background: linear-gradient(180deg, #830164 0%, #CC0150 100%);
     border-radius: 11px;
+    cursor: pointer;
 }
 
 .lab-submit {
@@ -90,6 +91,7 @@
     border: 1px solid #ACB7EB;
     color: #ACB7EB;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .file-here {
@@ -99,6 +101,7 @@
     height: 3.1rem;
     border-left: 2px solid #EFF2FF;
     border-right: 2px solid #EFF2FF;
+    cursor: pointer;
 }
 
 .file-here p {
