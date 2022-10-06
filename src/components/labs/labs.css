@@ -1,0 +1,109 @@
+.lab-container {
+    width: 41.44rem;
+    height: 34.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 29px #F0F3FF;
+    border-radius: 20px;
+    padding: 1.56rem;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}
+
+.lab-header {
+    display: flex;
+    align-items: center;
+    width: 38.06rem;
+    height: 3.3rem;
+    background-color: #F1F3FD;
+    color: #30302E;
+    border-radius: 17px;
+    padding-left: 1rem;
+    margin-bottom: 1.81rem;
+}
+
+
+.body-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-middle {
+    margin-left: 2.75rem;
+}
+
+.body-bottom {
+    margin-left: 2.75rem;
+}
+
+.body-serial-no {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 7PX;
+    color: #30302E;
+    background-color: #F1F3FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.86rem;
+    margin-right: 0.75rem;
+}
+
+.body-text {
+    font-size: 0.86rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    width: 34.37rem;
+}
+
+.body-topic {
+    font-weight: 700;
+}
+
+.lab-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #EFF2FF;
+    border-bottom: 1px solid #EFF2FF;
+    padding-top: 1.38rem;
+    padding-bottom: 1.38rem;
+    margin-top: 0.86rem;
+    margin-left: 2.75rem;
+    margin-bottom: 0.88rem;
+}
+
+.lab-upload {
+    width: 10.8rem;
+    height: 2.6rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.86rem;
+    background: linear-gradient(180deg, #830164 0%, #CC0150 100%);
+    border-radius: 11px;
+}
+
+.lab-submit {
+    width: 10.8rem;
+    height: 2.6rem;
+    font-weight: 400;
+    font-size: 0.86rem;
+    border: 1px solid #ACB7EB;
+    color: #ACB7EB;
+    background-color: transparent;
+}
+
+.file-here {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.1rem;
+    border-left: 2px solid #EFF2FF;
+    border-right: 2px solid #EFF2FF;
+}
+
+.file-here p {
+    font-size: 0.86rem;
+    padding: 0.5rem;
+    color: #ACB7EB;
+    font-style: italic;
+}
