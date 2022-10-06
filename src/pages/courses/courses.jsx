@@ -3,6 +3,7 @@ import './courses.css'
 import { Routes, Route, Link, NavLink } from 'react-router-dom'
 import Video from '../../components/video/video'
 import Notes from '../../components/notes/notes'
+import Lab from '../../components/labs/lab'
 
 function Courses() {
 
@@ -87,7 +88,7 @@ function Courses() {
                 <div className="courses-right">
                     <div className="courses-right-buttons">
                         <NavLink to='/courses'><button className="courses-right-button">Video</button></NavLink>
-                        <NavLink><button className="courses-right-button">Lab</button></NavLink>
+                        <NavLink to='/courses/lab'><button className="courses-right-button">Lab</button></NavLink>
                         <NavLink to='/courses/notes'><button className="courses-right-button">Note</button></NavLink>
                         <NavLink><button className="courses-right-button">Chat</button></NavLink>
                     </div>
@@ -95,6 +96,7 @@ function Courses() {
                         <Routes>
                             <Route exact path='/' element={<Video />} />
                             <Route exact path='notes' element={<Notes />} />
+                            <Route path='lab' element={<Lab />} />
                         </Routes>
                     </div>
                 </div>
